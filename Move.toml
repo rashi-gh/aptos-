@@ -1,0 +1,16 @@
+[package]
+name = "Decentralised-File-Storage-with-IPFS"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xdf9531a9f5e7b201d5b5d5f764b5ba7cf5638f9051167fa9e64040a811721f83"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
